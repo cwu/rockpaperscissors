@@ -2,8 +2,15 @@
   text-align:center;
   
 }
+
 #choices{
   display:flex;
   justify-content:space-between;
-  
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
